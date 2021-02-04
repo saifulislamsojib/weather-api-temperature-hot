@@ -1,4 +1,4 @@
-const baseUrl = "http://api.openweathermap.org/data/2.5/weather";
+const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
 const key = "bf69e3436bda6abf9fcce1f295583552";
 
 function weather() {
