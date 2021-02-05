@@ -7,7 +7,7 @@ city ? getWeather(city) : alert("Please Write A City");
 }
 
 function getWeather(city) {
-fetch(`${baseUrl}?q=${city}&appid=${key}`)
+fetch(`${baseUrl}?q=${city}&units=metric&appid=${key}`)
     .then((res) => res.json())
     .then((data) => showWeather(data))
     .catch((err) => alert(err));
